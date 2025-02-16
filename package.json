@@ -1,0 +1,18 @@
+{
+  "name": "tank_server_0.1.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "api": "nodemon api_server.js",
+    "user": "nodemon user_server.js"
+  },
+  "keywords": [],
+  "author": "Jane Doe",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
