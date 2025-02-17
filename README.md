@@ -1,6 +1,6 @@
 # Tank Control System
 
-A web-based control panel for managing a virtual tank's movement, built with Node.js (Express) for the backend and vanilla JavaScript for the frontend.
+A web-based control panel for managing a tank's movement, built with Node.js (Express) for the backend and vanilla JavaScript for the frontend.
 
 ## Features
 - Control tank tracks individually (Left/Right) or simultaneously (All)
@@ -73,21 +73,21 @@ tank-control-system/
 │   ├── index.html       # Control panel UI
 │   ├── style.css        # Styling
 │   └── script.js        # Client-side logic
-├── package.json
-└── README.md
+├── package.json         # Configuration
+└── README.md            
 ```
 
 ## Development
 
 1. Install Nodemon for live reloading:
    ```bash
-   npm install -g nodemon
+   npm install -D nodemon
    ```
 
 2. Start development servers:
    ```bash
-   npm run api  # Auto-restarts on API server changes
-   npm run user # Auto-restarts on static server changes
+   npm run dev_api  # Auto-restarts on API server changes
+   npm run dev_user # Auto-restarts on static server changes
    ```
 
 ## Contributing
@@ -110,5 +110,5 @@ Telegramm  -  @n0tpowered
 
 email - voroshilin.andrey@mail.ru
 
-Project Link: [https://github.com/your-username/tank-control-system](https://github.com/your-username/tank-control-system)
+Project Link: [https://github.com/notpoweredG/tank-control-system](https://github.com/your-username/tank-control-system)
 ```
